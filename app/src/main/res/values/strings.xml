@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">VIT Auditorium Booking App</string>
+
+    <!--    Slogan-->
+    <string name="slogan">"A place that tells a Story"</string>
+
+    <!--    Logo Name-->
+    <string name="logo_name">VIT Auditorium Booking</string>
+
+
+    <!--    Strings for Dashboard-->
+
+    <!--    Categories-->
+    <string name="conference">Conference Rooms</string>
+    <string name="auditoriums">Auditoriums</string>
+    <string name="smart_classroom">Smart Class</string>
+    <string name="events">Events</string>
+
+    <!--    Titles for Descriptions-->
+    <string name="featured_locations">All featured locations</string>
+    <string name="featured_location_desc">All the locations that are featured and have the demand in VIT!!</string>
+    <string name="most_viewed_locations">Most Viewed</string>
+    <string name="categories">Categories</string>
+    <string name="view_all">View All</string>
+    <string name="search_text">Search...</string>
+
+
+    <!--    Auditorium Description-->
+    <string name="audi1_desc">The Mahatma Gandhi Auditorium features a world-class, 2500-fixed-seat
+auditorium capable of handling a variety of functions from business meetings
+to large production events.</string>
+    <string name="audi2_desc">The Nethaji Auditorium features a world-class, 400-fixed-seat
+auditorium capable of handling a variety of functions from business meetings
+to large production events.</string>
+    <string name="audi3_desc">The V.O.C Auditorium features a world-class, 150-fixed-seat
+auditorium capable of handling a variety of functions from business meetings
+to large production events.</string>
+    <string name="cfr1_desc">The Conference Room - Academic Block:1 features a world-class, 120-fixed-seat
+auditorium capable of handling a variety of functions from business meetings
+to large production events.</string>
+    <string name="cfr2_desc">The RUBY - Admin Block features a world-class, 50-fixed-seat
+auditorium capable of handling a variety of functions from business meetings
+to large production events.</string>
+    <string name="smartRoom_desc">The Smart Classroom features a world-class, 100-fixed-seat
+auditorium capable of handling a variety of functions from business meetings
+to large production events.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

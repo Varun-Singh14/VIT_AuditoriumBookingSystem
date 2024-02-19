@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    tools:ignore="HardcodedText" >
+
+    <TextView
+        android:id="@+id/smartClass_Category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMART CLASS"
+        android:textSize="30sp"
+        android:fontFamily="@font/baloo"
+        android:textStyle="bold"
+        android:textColor="@color/bg_color"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="2dp"
+        android:id="@+id/SmartClass_CardView"
+        app:cardElevation="8dp"
+        android:layout_marginTop="10dp"
+        android:onClick="SmartClassLoader">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/smartclass_Category_image"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/smart_classroom" />
+
+            <TextView
+                android:id="@+id/smartclass_Category_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/smartclass_Category_image"
+                android:fontFamily="@font/baloo"
+                android:text="Smart Classroom"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <RatingBar
+                android:id="@+id/smartclass_Category_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_below="@+id/smartclass_Category_title"
+                android:layout_toRightOf="@+id/smartclass_Category_image"
+                android:layout_marginLeft="10dp"
+                android:rating="3.5"/>
+
+            <TextView
+                android:id="@+id/smartclass_Category_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="It is a long established fact that a reader."
+                android:layout_below="@id/smartclass_Category_rating"
+                android:layout_toRightOf="@+id/smartclass_Category_image"
+                android:padding="10dp"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

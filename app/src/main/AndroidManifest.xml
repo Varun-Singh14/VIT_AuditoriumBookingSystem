@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.helloworld.vitauditoriumbookingsys">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UserDashboard">
+        <activity
+            android:name=".Admin.Admin_approved_request"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Admin_pending_request"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminHomepage"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".AllEvents"
+            android:exported="false" />
+        <activity
+            android:name=".SmartClassCategory"
+            android:exported="false" />
+        <activity
+            android:name=".ConferenceRoomCategory"
+            android:exported="false" />
+        <activity
+            android:name=".AllBookingTickets"
+            android:exported="false" />
+        <activity
+            android:name=".AuditoriumsCategory"
+            android:exported="false" />
+        <activity
+            android:name=".DateBooking.DateBookingRoom6"
+            android:exported="false" />
+        <activity
+            android:name=".DateBooking.DateBookingRoom5"
+            android:exported="false" />
+        <activity
+            android:name=".DateBooking.DateBookingRoom4"
+            android:exported="false" />
+        <activity
+            android:name=".DateBooking.DateBookingRoom3"
+            android:exported="false" />
+        <activity
+            android:name=".DateBooking.DateBookingRoom2"
+            android:exported="false" />
+        <activity
+            android:name=".DateBooking.DateBookingRoom1"
+            android:exported="false" />
+        <activity
+            android:name=".Room.Room6"
+            android:exported="false" />
+        <activity
+            android:name=".Room.Room5"
+            android:exported="false" />
+        <activity
+            android:name=".Room.Room4"
+            android:exported="false" />
+        <activity
+            android:name=".Room.Room3"
+            android:exported="false" />
+        <activity
+            android:name=".Room.Room2"
+            android:exported="false" />
+        <activity
+            android:name=".Room.Room1"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "499192149458",
+    "project_id": "vit-auditorium-booking-app",
+    "storage_bucket": "vit-auditorium-booking-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499192149458:android:967851ac0177b40353840b",
+        "android_client_info": {
+          "package_name": "com.helloworld.vitauditoriumbookingsys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499192149458-llke67bu6hiuvol2f2rjpdsdar9cdpbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtjugAUo3mtgSvTEFiHX1L9oENo4g940k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499192149458-llke67bu6hiuvol2f2rjpdsdar9cdpbh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499192149458:android:81a3f9a019b0d5d253840b",
+        "android_client_info": {
+          "package_name": "com.helloworld.vitauditoriumbookingsys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499192149458-ak5qqsaidv1ctsld24mc40viio5dn48u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.helloworld.vitauditoriumbookingsys",
+            "certificate_hash": "71dac88d1e42c7957211013ece252dd89d2c2e7b"
+          }
+        },
+        {
+          "client_id": "499192149458-llke67bu6hiuvol2f2rjpdsdar9cdpbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtjugAUo3mtgSvTEFiHX1L9oENo4g940k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499192149458-llke67bu6hiuvol2f2rjpdsdar9cdpbh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

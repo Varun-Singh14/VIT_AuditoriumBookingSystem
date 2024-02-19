@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/auditoriums_Category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AUDITORIUMS"
+        android:textSize="30sp"
+        android:fontFamily="@font/baloo"
+        android:textStyle="bold"
+        android:textColor="@color/bg_color"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="2dp"
+            android:id="@+id/MahatmaGandhiAuditorium_CardView"
+            app:cardElevation="8dp"
+            android:layout_marginTop="10dp"
+            android:onClick="MahatmaAudiLoader">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/auditoriums_Category_image"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/auditorium_a" />
+
+                <TextView
+                    android:id="@+id/auditoriums_Category_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/auditoriums_Category_image"
+                    android:fontFamily="@font/baloo"
+                    android:text="Mahatma Gandhi Auditorium"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <RatingBar
+                    android:id="@+id/auditoriums_Category_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.AppCompat.RatingBar.Small"
+                    android:layout_below="@+id/auditoriums_Category_title"
+                    android:layout_toRightOf="@+id/auditoriums_Category_image"
+                    android:layout_marginLeft="10dp"
+                    android:rating="3.5"/>
+
+                <TextView
+                    android:id="@+id/auditoriums_Category_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="It is a long established fact that a reader."
+                    android:layout_below="@id/auditoriums_Category_rating"
+                    android:layout_toRightOf="@+id/auditoriums_Category_image"
+                    android:padding="10dp"/>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="2dp"
+            android:id="@+id/NethajiAuditorium_CardView"
+            app:cardElevation="8dp"
+            android:layout_marginTop="10dp"
+            android:onClick="NethajiAudiLoader"
+            android:layout_below="@+id/MahatmaGandhiAuditorium_CardView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/auditoriums_Category_image2"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/audtiorium_b" />
+
+                <TextView
+                    android:id="@+id/auditoriums_Category_title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/auditoriums_Category_image2"
+                    android:fontFamily="@font/baloo"
+                    android:text="Nethajii Auditorium"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <RatingBar
+                    android:id="@+id/auditoriums_Category_rating2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.AppCompat.RatingBar.Small"
+                    android:layout_below="@+id/auditoriums_Category_title2"
+                    android:layout_toRightOf="@+id/auditoriums_Category_image2"
+                    android:layout_marginLeft="10dp"
+                    android:rating="3.5"/>
+
+                <TextView
+                    android:id="@+id/auditoriums_Category_desc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="It is a long established fact that a reader."
+                    android:layout_below="@id/auditoriums_Category_rating2"
+                    android:layout_toRightOf="@+id/auditoriums_Category_image2"
+                    android:padding="10dp"/>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="2dp"
+            android:id="@+id/VOCAuditorium_CardView"
+            app:cardElevation="8dp"
+            android:layout_marginTop="10dp"
+            android:onClick="VOCAudiLoader"
+            android:layout_below="@+id/NethajiAuditorium_CardView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/auditoriums_Category_image3"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/auditorium_a" />
+
+                <TextView
+                    android:id="@+id/auditoriums_Category_title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/auditoriums_Category_image3"
+                    android:fontFamily="@font/baloo"
+                    android:text="V.O.C Auditorium"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <RatingBar
+                    android:id="@+id/auditoriums_Category_rating3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.AppCompat.RatingBar.Small"
+                    android:layout_below="@+id/auditoriums_Category_title3"
+                    android:layout_toRightOf="@+id/auditoriums_Category_image3"
+                    android:layout_marginLeft="10dp"
+                    android:rating="3.5"/>
+
+                <TextView
+                    android:id="@+id/auditoriums_Category_desc3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="It is a long established fact that a reader."
+                    android:layout_below="@id/auditoriums_Category_rating3"
+                    android:layout_toRightOf="@+id/auditoriums_Category_image3"
+                    android:padding="10dp"/>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
